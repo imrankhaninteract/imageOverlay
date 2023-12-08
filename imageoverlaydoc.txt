@@ -1,14 +1,14 @@
 This code initiates an HTML document by declaring its type and establishing the head section. Within this section, the title Image Overlay is specified for the page. The ensuing CSS styles cater to various page elements
 
-The entire page adopts a sans serif font, zero side padding, a font size of 19 pixels, and a background color of 222dark gray. Text is colored aaalight gray and centrally aligned. Additionally, a Pexels sourced image serves as the background for the body.
+The entire page adopts a sans serif font, zero side padding, a font size of 19 pixels, and a background color of dark gray. Text is colored light gray and centrally aligned. Additionally, a Pexels sourced image serves as the background for the body.
 Different elements are styled as follows
 
-Paragraphs are formatted with 1.5em margins on top and bottom, a color of aaa, a font size of 2em, and a text shadow effect.
-Images are restricted to a maximum height of 45percent of the viewport.
-Links inherit their color from parent elements and exhibit a hover effect, changing to bbblighter gray when hovered over.
+Paragraphs are formatted with 1.5em margins on top and bottom, a color of  medium gray , a font size of 2em, and a text shadow effect.
+Images are restricted to a maximum height of 45 percent of the viewport.
+Links inherit their color from parent elements and exhibit a hover effect, changing to lighter gray when hovered over.
 Furthermore, styles for an image overlay are defined
 
-Initially, the overlay is set not to displaydisplay none, fixed in position to cover the entire viewport, with a high z index for visibility. It features padding on all sides and a semi transparent black background 000000cc.
+Initially, the overlay is set not to displaydisplay none, fixed in position to cover the entire viewport, with a high z index for visibility. It features padding on all sides and a semi transparent black background .
 Functionalities for the overlay are implemented
 
 Activation of the overlay occurs upon clicking its designated target.
