@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Image Overlay</title>
+  <!-- CSS styles for the page -->
   <style>
+    /* Styling for the whole page */
     html,
     body {
       font-family: sans-serif;
@@ -10,29 +13,29 @@
       background: #222;
       color: #aaa;
       text-align: center;
+      /* Background image for the body */
       background-image: url("https://images.pexels.com/photos/162389/lost-places-old-decay-ruin-162389.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     }
+    /* Styling for paragraphs */
     p {
       margin: 1.5em 0;
       color: #aaa;
       font-size: 2em;
       text-shadow: 0 0 20px #EBEBEBCC;
     }
+    /* Styling for images */
     img {
       max-height: 45vh;
     }
+    /* Styling for links */
     a {
       color: inherit;
     }
+    /* Hover effect for links */
     a:hover {
       color: #bbb;
     }
-    .italic {
-      font-style: italic;
-    }
-    .small {
-      font-size: 0.8em;
-    }
+    /* Styles for the overlay */
     .overlay {
       display: none;
       position: fixed;
@@ -42,11 +45,14 @@
       right: 0;
       bottom: 0;
       padding: 1em;
+      /* Semi-transparent black background */
       background: #000000cc;
     }
+    /* Display the overlay when the target is clicked */
     .overlay:target {
       display: block;
     }
+    /* Styling for the overlay content */
     .overlay span {
       display: block;
       width: 100%;
@@ -58,16 +64,19 @@
   </style>
 </head>
 <body>
+  <!-- Instructions for the user -->
   <p>Click the thumbnail below to activate the overlay</p>
+  <!-- Thumbnail image link -->
   <a href="#img1">
+    <!-- Thumbnail image -->
     <img src="https://images.pexels.com/photos/2055225/pexels-photo-2055225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
   </a>
+  <!-- Overlay link -->
   <a href="#" class="overlay" id="img1">
+    <!-- Overlay content -->
     <span
       style="background-image: url('https://images.pexels.com/photos/2055225/pexels-photo-2055225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"
     ></span>
   </a>
 </body>
 </html>
-
-
